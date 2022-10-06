@@ -14,8 +14,24 @@ description: "A mini bookdown tutorial book on how to make bookdown books."
 
 # Welcome {#welcome}
 
-hi
+```{r, include=FALSE}
+if (!require("pacman")) install.packages("pacman")
+if (!require("pacman")) install.packages("pacman")
+p_load(tutorial) # Packages 
+tutorial::go_interactive()
+```
 
+```{r}
+a <- 2
+b <- 3
+
+a + b
+```
+
+
+
+--- 
+--- 
 It's possible to create beautiful books for free using [RStudio's R Markdown](http://rmarkdown.rstudio.com/) and Yihui Xie's [bookdown](https://bookdown.org/yihui/bookdown/) and hosting them on [Github](http://github.com). This is pretty new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.
 
 This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout. It also parallels a previous tutorial [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/).
@@ -42,4 +58,3 @@ And R Markdown is much more than books and websites -- here's a [**one-minute vi
 ## Learn all about Bookdown
 
 The best way to learn more about bookdown is from Yihui Xie himself. You can read his book [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/) or watch his webinar [introducing bookdown](https://www.rstudio.com/resources/webinars/introducing-bookdown/).
-
