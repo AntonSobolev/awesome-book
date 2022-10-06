@@ -24,14 +24,6 @@ p_load(tutorial) # Packages
 tutorial::go_interactive()
 ```
 
-```{r}
-tutorial::build_example()
-```
-
-```{r}
-
-```
-
 
 ```{r}
 a <- 2
@@ -39,12 +31,6 @@ b <- 3
 
 a + b
 ```
-
-
-
---- 
-## DC
-
 
 
 --- 
